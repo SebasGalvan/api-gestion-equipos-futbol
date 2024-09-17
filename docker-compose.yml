@@ -1,0 +1,8 @@
+services:
+  api_equipos_futbol:
+    container_name: api-equipos
+    image: api-equipos-futbol:1.0.0
+    build: .
+    ports:
+      - "8080:8080"
+
